@@ -1,7 +1,7 @@
 {
-  "name": "Scrollr",
-  "version": "1.0.4",
-  "description": "Scroll a whole page with one click.",
+  "name": "Jumper",
+  "version": "1.0.0",
+  "description": "Jump links between devices faster than ever before",
   "permissions": [
     "activeTab"
   ],
@@ -11,12 +11,12 @@
     "persistent": false
   },
   "browser_action": {
-    "default_icon": "scrollr-128.png",
-    "default_title": "Scrollr"
+    "default_icon": "jumper-128.png",
+    "default_title": "Jumper"
   },
-  "icons": { "16": "scrollr-16.png",
-           "48": "scrollr-48.png",
-          "128": "scrollr-128.png" 
+  "icons": { "16": "jumper-16.png",
+           "48": "jumper-48.png",
+          "128": "jumper-128.png" 
   },
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "manifest_version": 2
